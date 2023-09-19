@@ -1,240 +1,243 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
 header {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(172, 202, 222);
-    height:70px;
-    position:fixed;
-    width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(172, 202, 222);
+  height:70px;
+  position:fixed;
+  width:100%;
 }
 
 
 #nav_menu_img{
-    margin-left: 100px;
-    height:50px;
-    width:150px;
+  margin-left: 100px;
+  height:50px;
+  width:150px;
 }
 
 header nav ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
 
 .nav_menu {
-    margin-left: 30px;
-    padding: 5px;
+  margin-left: 30px;
+  padding: 5px;
 }
 
 .nav_menu a{
-    color:black;
-    text-decoration: none;
+  color:black;
+  text-decoration: none;
 }
 
 .nav_menu button{
-    margin-right: 100px;
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: #fff;
-    border-radius: 10px;background-color:rgb(55, 147, 217);
+  margin-right: 100px;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;background-color:rgb(55, 147, 217);
 }
 
 main{
-    padding-top: 70px;
+  padding-top: 70px;
 }
 
 .section_top_bottom{
-     background-color: rgb(76,76,139);
+    background-color: rgb(76,76,139);
 }
 
 .section_top_bottom .top, .bottom{
-    padding-bottom: 20px;
-    padding-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
-   
+  
 
 .section_top_bottom .text{
-    padding: 20px;
-    text-align: center;
-    font-size: large;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
 }
 
 .section_top_bottom .text h1{
-    font-size: 50px;
-    color: white;
-    margin-bottom: 20px;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .section_top_bottom .text p{
-    font-size: 0.8em;
-    color: white;
+  font-size: 0.8em;
+  color: white;
 }
 
 .section_top_bottom .text p:last-child{
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .section_top_bottom .img {
-    text-align: center;
+  text-align: center;
 }
 
 .section_top_bottom .img img{
-    height: 300px; 
+  height: 300px; 
 }
 .section_top_bottom .bottom {
-    background-color: rgb(193, 193, 222);
-   }
+  background-color: rgb(193, 193, 222);
+  }
 
 .main_article01{
-    background-color: ghostwhite;
-    display: flex;
-    justify-content: center;
-    padding: 20px 100px;
-    border-bottom: solid 1px lightgray;
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: center;
+  padding: 20px 100px;
+  border-bottom: solid 1px lightgray;
 }
 
 .main_article01 .text{
-    padding: 20px;
-    text-align: left;
+  padding: 20px;
+  text-align: left;
 }
 
 .main_article01 .text h1{
-    font-size: 30px;
-    font-weight: bold;
-    color: rgb(76,76,139);
-    margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(76,76,139);
+  margin-bottom: 20px;
 }
 
 .main_article01 .text p{
-    font-size: 0.7em;
-    color: black;
+  font-size: 0.7em;
+  color: black;
 }
 
 
 .main_article01 .img {
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 10px;
 }
 
 .main_article01 .img img{
-    height: 250px
+  height: 250px
 }
 
 .section_top_bottom .text button{
-    margin: 20px 0;
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: #fff;
-    border-radius: 10px;background-color:rgb(55, 147, 217);
+  margin: 20px 0;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;background-color:rgb(55, 147, 217);
 }
 
 .main_article01 button{
-    margin-top: 20px;
-    margin-right: 100px;
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: #fff;
-    border-radius: 10px;background-color:rgb(55, 147, 217);
+  margin-top: 20px;
+  margin-right: 100px;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;background-color:rgb(55, 147, 217);
 }
 
 .footer_start{
-    width: 100%;
-    border-bottom: solid 1px lightgray;
+  width: 100%;
+  border-bottom: solid 1px lightgray;
 }
 
 .botttom_menu{
-    display: flex;
-    justify-content:center;
-    margin: 10px 100px;
+  display: flex;
+  justify-content:center;
+  margin: 10px 100px;
 }
 .pic_side_left{
-    flex-grow:1;
+  flex-grow:1;
 }
 
 .footer_menu{
-    list-style: none;
+  list-style: none;
 }
 
 .pic_side_left li{
-    list-style: none;
+  list-style: none;
 }
 
 .pic_side_left .img01{
-    width:150px;
-    height:80px;
+  width:150px;
+  height:80px;
 }
 .pic_side_left .img02{
-    width:450px;
-    height:250px;
+  width:450px;
+  height:250px;
 }
 
 .pic_side_left img{
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .menu_side_right{
-    display: flex;
-    justify-content: center;
-    flex-grow:1;
+  display: flex;
+  justify-content: center;
+  flex-grow:1;
 }
 
 .menu_side_right01{
-    flex-grow:2;
+  flex-grow:2;
 }
 .menu_side_right02{
-    flex-grow:2;
+  flex-grow:2;
 }
 
 button{
-    text-transform: uppercase;
-    font-weight: bolder;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+button:hover{
+  color: blue;
 }
 
 .menu_box{
-    display: flex;
-    justify-content: center;
-    list-style: none;
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 
 .menu_box ul{
-    list-style: none;
+  list-style: none;
 }
 
 .footer_menu{
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .footer_menu01 a{
-    text-decoration: none;
-    color:black;
+  text-decoration: none;
+  color:black;
 }
 
 .footer_menu01{
-    margin-right: 70px;
-    margin-bottom: 10px;
-    flex-grow:4;
+  margin-right: 70px;
+  margin-bottom: 10px;
+  flex-grow:4;
 }
 
 .footer{
-    text-align: center;
-    margin-top: 100px;
+text-align: center;
+margin-top: 100px;
 }
 .copyright{
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
